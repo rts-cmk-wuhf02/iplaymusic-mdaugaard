@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/2fe948759e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/dist/assets/css/scss/albums.css">
+    <title>Albums</title>
+</head>
+<body>
+    <%- include('../partials/header'); -%>
+    <main class="main">
+        <div class="pageTitle-container">
+            <p class="pageTitle">ALL ALBUMS</p>
+        </div>
+        <section class="albumCovers-container">
+            <div class="featuredAlbums-menu">
+                <h3 class="albumMenu-title">Featured Albums</h3>
+                <p class="albumMenu-viewAll">View All</p>
+            </div>
+            <section class="albumCovers">
+                <div class="cover1"></div>
+            </section>
+        </section>
+        <section class="featuredAlbums-menuContainer">
+            <div class="featuredAlbums-menu">
+                <h3 class="albumMenu-title">New Releases</h3>
+                <p class="albumMenu-viewAll">View All</p>
+            </div>
+            <section class="newRealise-list">
+                <div class="newRealise-albumLogo">
+
+                </div>
+                <div>
+                    <h4 class="album-title">Old Town Road</h4>
+                    <p class="album-creator">Billy Ray Cyrus</p>
+                </div>
+                <div>
+                    <p class="album-songAmount">12 songs</p>
+                </div>
+            </section>
+        </section>
+    </main>
+    <%- include('../partials/footer'); -%>
+</body>
+</html>
