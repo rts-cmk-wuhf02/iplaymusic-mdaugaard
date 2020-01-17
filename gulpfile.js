@@ -24,7 +24,7 @@ function images(next) {
    next();
 }
 function scss(next) {
-   gulp.src("./src/css/**/*.scss")
+   gulp.src("./src/scss/**/*.scss")
        .pipe(sass())
        .pipe(gulp.dest("./dist/assets/css"))
        .pipe(connect.reload());
@@ -53,7 +53,7 @@ function watchImages() {
    gulp.watch("./src/img/*", { ignoreInitial: false }, images);
 }
 function watchScss() {
-   gulp.watch("./src/css/**/*.scss", { ignoreInitial: false }, scss);
+   gulp.watch("./src/scss/**/*.scss", { ignoreInitial: false }, scss);
 }
 function watchJs() {
    gulp.watch("./src/js/**/*.js", { ignoreInitial: false }, js);

@@ -1,0 +1,75 @@
+@import url("/assets/css/header.css");
+@import url("./header.css");
+@import url("/assets/css/headerTwo.css");
+
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+body {
+    background-color: #341931;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.albumDetails-wallpaper {
+    background-image: url("/assets/img/pexels-photo-1771305.png");
+    background-position: center;
+    background-size: cover;
+    color: white;
+    padding: 40px;
+}
+
+.wallpaperTop-text {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    height: 25%;
+}
+
+.wallpaperBottom-text {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0 0 0;
+    height: 75%;
+    box-sizing: border-box;
+}
+
+.topTekst-h1 {
+    font-size: 36px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.topTekst-p {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.bottomText-h2 {
+    font-size: 15px;
+}
+
+.wallpaperbotton-left {
+    background-color: #FF1168;
+    color: white;
+    border-radius: 20px;
+    border: 0;
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.wallpaperbotton-right {
+    background-color: #FF1168;
+    color: white;
+    border-radius: 20px;
+    border: 0;
+    width: 140px;
+    height: 40px;
+    font-size: 15px;
+}
+
+.main {
+    padding: 40px;
+}

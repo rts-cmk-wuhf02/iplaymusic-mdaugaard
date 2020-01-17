@@ -46,6 +46,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 20px;
 }
 
 .albumMenu-title {
@@ -72,20 +73,27 @@ body {
     height: 150px;
     width: 150px;
     background-image: url("/dist/assets/img/butterflylady.png");
+    background-size: 120%;
+    background-position: center;
+    box-shadow: 0px 0px 35px 5px rgba(0,0,0,0.75);
 }
 
 .newRealise-list {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
     color: white;
+    margin-bottom: 20px;
 }
 
 .newRealise-albumLogo {
     width: 75px;
     height: 75px;
     background-image: url("/dist/assets/img/butterflylady.png");
-    background-size: 100%;
+    background-size: 120%;
+    background-position: center;
+    box-shadow: 0px 0px 35px 5px rgba(0,0,0,0.75);
 }
 
 .album-title {
