@@ -1,0 +1,110 @@
+@import url("./footer.css");
+@import url("./header.css");
+
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+body {
+    background-color: #341931;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main {
+    background-image: url("/assets/img/sound-wave.png");
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    padding: 80px 40px 80px 40px;
+}
+
+.pageTitle-container {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.pageTitle {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0;
+    color: white;
+}
+
+.playlist-top {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.playlistTop-image {
+    height: 200px;
+    width: 200px;
+    background-image: url("/assets/img/photo-1545224144-b38cd309ef69.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.playlistTop-title {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.titleOne {
+    margin: 0;
+}
+
+.titleTwo {
+    margin: 0;
+}
+
+.songDetails-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 45px;
+    color: white;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.play-button {
+    display: flex;
+    align-items: center;
+}
+
+.fa-play-circle {
+    font-size: 36px;
+    margin-right: 25px;
+}
+
+.songDetail-h1 {
+    font-size: 15px;
+    margin: 0;
+}
+
+.songDetail-p {
+    margin: 0;
+}
+
+.songDetail-time {
+    margin: 0;
+}
+
+.playlist-button {
+    width: 100%;
+    height: 40px;
+    border-style: solid;
+    border-color: #FF1168;
+    border-radius: 20px;
+    color: #FF1168;
+    background-color: transparent;
+    padding: 0;
+    margin-top: 40px
+}

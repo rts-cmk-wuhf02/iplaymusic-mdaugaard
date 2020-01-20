@@ -1,5 +1,5 @@
 @import url("/assets/css/header.css");
-@import url("./header.css");
+@import url("/assets/css/footer.css");
 @import url("/assets/css/headerTwo.css");
 
 @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
@@ -16,7 +16,8 @@ body {
     background-position: center;
     background-size: cover;
     color: white;
-    padding: 40px;
+    padding: 80px 40px 80px 40px;
+    position: relative;
 }
 
 .wallpaperTop-text {
@@ -72,4 +73,35 @@ body {
 
 .main {
     padding: 40px;
+}
+
+.songDetails-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 45px;
+    color: white;
+}
+
+.play-button {
+    display: flex;
+    align-items: center;
+}
+
+.fa-play-circle {
+    font-size: 36px;
+    margin-right: 25px;
+}
+
+.songDetail-h1 {
+    font-size: 15px;
+    margin: 0;
+}
+
+.songDetail-p {
+    margin: 0;
+}
+
+.songDetail-time {
+    margin: 0;
 }

@@ -5,25 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://kit.fontawesome.com/2fe948759e.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="/assets/css/albumDetails.css">
-    <title>albumDetails</title>
+    <link rel="stylesheet" href="/assets/css/playlist.css">
+    <title>Document</title>
 </head>
 <body>
-    <section class="albumDetails-wallpaper">
-    <%- include('../partials/headerTwo'); -%>
-    <div class="wallpaperTop-text">
-            <h1 class="topTekst-h1">Old Tow Road</h1>
-            <p class="topTekst-p">12 Songs</p>
-        </div>
-        <div class="wallpaperBottom-text">
-            <h2 class="bottomText-h2">genres hashtags</h2>
-            <div class="wallpaperBottons">
-                <button class="wallpaperbotton-left">#country</button>
-                <button class="wallpaperbotton-right">#country road</button>
-            </div>
-        </div>
-    </section>
     <main class="main">
+        <%- include('../partials/header'); -%>
+        <div class="pageTitle-container">
+            <p class="pageTitle">Playlists</p>
+        </div>
+        <section class="playlist-top">
+            <div class="playlistTop-image"></div>
+            <div class="playlistTop-title">
+                <h1 class="titleOne">Top 50</h1>
+                <h1 class="titleTwo">Rock Ballads</h1>
+            </div>
+        </section>
         <section class="songDetails-container">
             <div class="play-button">
                 <i class="fas fa-play-circle"></i>
@@ -36,6 +33,7 @@
                 <p class="songDetail-time">3 : 58</p>
             </div>
         </section>
+        <button class="playlist-button">LISTEN ALL</button>
     </main>
     <%- include('../partials/footer'); -%>
 </body>

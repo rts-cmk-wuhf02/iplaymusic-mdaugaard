@@ -17,7 +17,7 @@ body {
     align-items: center;
     height: 100%;
     position: relative;
-    padding-bottom: 80px;
+    padding: 80px 0 80px 0;
 }
 
 .pageTitle-container {
@@ -41,7 +41,7 @@ body {
     width: 300px;
     height: 400px;
     box-sizing: border-box;
-    background-image: url("/dist/assets/img/bluelady.png");
+    background-image: url("/assets/img/bluelady.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 150%;
@@ -53,7 +53,7 @@ body {
     display: flex;
     width: 300px;
     height: 400px;
-    background-image: url("/dist/assets/img/horrorlady.png");
+    background-image: url("/assets/img/horrorlady.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 150%;
